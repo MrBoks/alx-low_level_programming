@@ -14,13 +14,20 @@ int main(void)
 		num2 = 48;
 		while (num2 < 58)
 		{
+			if (!((num1 == num2) || (num2 > num1)))
+			{
 			putchar(num1);
 			putchar(num2);
 			num2++;
-			putchar(',');
-			putchar(' ');
+				if (!(num1 == '9' && num2 == '8'))
+				{
+				putchar(',');
+				putchar(' ');
+				}
+			}
 		}
 		num1++;
+
 	}
 	putchar('\n');
 
