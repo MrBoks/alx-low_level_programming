@@ -6,18 +6,17 @@
  */
 int main(void)
 {
-	int num1, num2;
+	int num1 = '0';
+	int num2 = '0';
 
-	num1 = 48;
-	while (num1 < 58)
+	while (num2 <= 9)
 	{
-		num2 = 48;
-		while (num2 < 58)
+		while (num1 <= 9)
 		{
 			if (!((num1 == num2) || (num2 > num1)))
 			{
-			putchar(num1);
 			putchar(num2);
+			putchar(num1);
 			num2++;
 				if (!(num1 == '9' && num2 == '8'))
 				{
