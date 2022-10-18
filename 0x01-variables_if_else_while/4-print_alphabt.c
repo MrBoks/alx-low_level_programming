@@ -9,7 +9,7 @@ int main(void)
 {
 	char lwcase;
 
-	for (lwcase = 'a'; lwcase <= 'z'; lwcase ++)
+	for (lwcase = 'a'; lwcase <= 'z'; lwcase++)
 	{
 		if (lwcase != 'e' && lwcase != 'q')
 			putchar(lwcase);
