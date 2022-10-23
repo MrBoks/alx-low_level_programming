@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * jac_bauer - prints every minute of the day
+ * jack_bauer - prints every minute of the day
  * Return: no return
  */
-jack_bauer(void)
+void jack_bauer(void)
 {
 	int a, b, c, d;
 
