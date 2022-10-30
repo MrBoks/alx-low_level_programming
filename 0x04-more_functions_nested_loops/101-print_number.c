@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+void print_integer(int m);
 /**
  * print_number - prints int with putchar
  * @n: takes number, hello
