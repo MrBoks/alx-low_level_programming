@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include "dog.h"
 
 /**
@@ -14,4 +15,4 @@ free(d->owner);
 free(d->name);
 free(d);
 }
-}
+}}
