@@ -1,4 +1,3 @@
-vi 2-int_index.c
 #include "function_pointers.h"
 
 /**
