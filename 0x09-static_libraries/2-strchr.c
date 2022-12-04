@@ -1,9 +1,10 @@
 #include "main.h"
+
 /**
  * _strchr - Entry point
- * @s: input
+ * @s: string pointed to
  * @c: input
- * Return: Always 0 (Success)
+ * Return: Always 0
  */
 char *_strchr(char *s, char c)
 {
